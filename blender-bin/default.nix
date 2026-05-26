@@ -194,10 +194,10 @@ in
 
   blender_4_5 = mkBlender {
     pname = "blender-bin";
-    version = "4.5.4";
+    version = "4.5.9";
     src = pkgs.fetchurl {
-      url = "https://download.blender.org/release/Blender4.5/blender-4.5.4-linux-x64.tar.xz";
-      hash = "sha256-Lm746Z/DYycnBCndyOe60oWd2HiloTfS4L8PAvZ5JQU=";
+      url = "https://download.blender.org/release/Blender4.5/blender-4.5.9-linux-x64.tar.xz";
+      hash = "sha256-3Nw+ymyYJbs1qAM7aJwFPzy1qbDNKmGy6sKklDa0rT0=";
     };
   };
 
@@ -212,10 +212,10 @@ in
 
   blender_5_1 = mkBlender {
     pname = "blender-bin";
-    version = "5.1.1";
+    version = "5.1.2";
     src = pkgs.fetchurl {
-      url = "https://download.blender.org/release/Blender5.1/blender-5.1.1-linux-x64.tar.xz";
-      hash = "sha256-b5//if7xVO95dNGhxLkWq0vB9WGLy0jVvv7hvQp8fyo=";
+      url = "https://download.blender.org/release/Blender5.1/blender-5.1.2-linux-x64.tar.xz";
+      hash = "sha256-qsyzVfUBg5ebaYvM50ZxA6diYbX6WfSXIpWEJmKihfs=";
     };
   };
 }
